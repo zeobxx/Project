@@ -1,0 +1,41 @@
+.navbar {
+    background-color: rgb(165, 150, 82);
+    height: 10rem;
+    width: 10rem;
+}
+
+.maejo_header {
+    height: 100px;
+    /*ระยะขอบด้านขวา นอกกล่อง*/
+    /* margin-left: 10rem; */
+}
+
+.maejo_text {
+    /* ขนาด font */
+    font-size: 30px;
+    /* ขนาดความหนา */
+    font-weight: bold;
+    color: rgb(6, 7, 5);
+    /* เงาตัวอักษร */
+    text-shadow: 2px 2px 4px rgb(16, 12, 17);
+    text-align: right;
+}
+
+.maejo_eng_text {
+    /* ขนาด font */
+    font-size: 30px;
+    /* ขนาดความหนา */
+    font-weight: bold;
+    color: rgb(10, 182, 33);
+    /* เงาตัวอักษร */
+    text-shadow: 2px 2px 4px rgb(48, 3, 3);
+    text-align: right;
+}
+
+.ar_text {
+    font-size: 20px;
+}
+
+.ar_text2 {
+    font-size: 15px;
+}
