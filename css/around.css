@@ -1,33 +1,41 @@
-.navbar {
-    background-color: rgb(165, 150, 82);
-    height: 4rem;
-    width: 4rem;
-}
-
-.maejo_header {
-    height: 150px;
-    /*ระยะขอบด้านขวา นอกกล่อง*/
-    margin-left: 10rem;
-}
-
-.maejo_text {
-    /* ขนาด font */
-    font-size: 100px;
-    /* ขนาดความหนา */
-    font-weight: bold;
-    color: rgb(184, 218, 82);
-    /* เงาตัวอักษร */
-    text-shadow: 2px 2px 4px rgb(130, 18, 158);
-    text-align: center;
-}
-
-.maejo_eng_text {
-    /* ขนาด font */
-    font-size: 100px;
-    /* ขนาดความหนา */
-    font-weight: bold;
-    color: rgb(10, 182, 33);
-    /* เงาตัวอักษร */
-    text-shadow: 2px 2px 4px rgb(48, 3, 3);
-    text-align: center;
-}
+    .navbar {
+        background-color: rgb(165, 150, 82);
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .maejo_header {
+        height: 150px;
+        /*ระยะขอบด้านขวา นอกกล่อง*/
+        margin-left: 10rem;
+    }
+    
+    .maejo_text {
+        /* ขนาด font */
+        font-size: 50px;
+        /* ขนาดความหนา */
+        font-weight: bold;
+        color: rgb(184, 218, 82);
+        /* เงาตัวอักษร */
+        text-shadow: 2px 2px 4px rgb(130, 18, 158);
+        text-align: center;
+    }
+    
+    .maejo_eng_text {
+        /* ขนาด font */
+        font-size: 40px;
+        /* ขนาดความหนา */
+        font-weight: bold;
+        color: rgb(10, 182, 33);
+        /* เงาตัวอักษร */
+        text-shadow: 2px 2px 4px rgb(48, 3, 3);
+        text-align: center;
+    }
+    
+    .tabmini {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        background-color: white;
+    }
