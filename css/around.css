@@ -1,41 +1,43 @@
-    .navbar {
-        background-color: rgb(165, 150, 82);
-        height: 4rem;
-        width: 4rem;
-    }
-    
-    .maejo_header {
-        height: 150px;
-        /*ระยะขอบด้านขวา นอกกล่อง*/
-        margin-left: 10rem;
-    }
-    
-    .maejo_text {
-        /* ขนาด font */
-        font-size: 50px;
-        /* ขนาดความหนา */
-        font-weight: bold;
-        color: rgb(184, 218, 82);
-        /* เงาตัวอักษร */
-        text-shadow: 2px 2px 4px rgb(130, 18, 158);
-        text-align: center;
-    }
-    
-    .maejo_eng_text {
-        /* ขนาด font */
-        font-size: 40px;
-        /* ขนาดความหนา */
-        font-weight: bold;
-        color: rgb(10, 182, 33);
-        /* เงาตัวอักษร */
-        text-shadow: 2px 2px 4px rgb(48, 3, 3);
-        text-align: center;
-    }
-    
-    .tabmini {
-        font-size: 18px;
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        background-color: white;
-    }
+.navbar {
+    background-color: white;
+    background-position: center;
+    position: relative;
+}
+
+.maejo_header {
+    height: 150px;
+    /*ระยะขอบด้านขวา นอกกล่อง*/
+    margin-left: 10rem;
+}
+
+.maejo_text {
+    /* ขนาด font */
+    font-size: 50px;
+    /* ขนาดความหนา */
+    font-weight: bold;
+    color: rgb(184, 218, 82);
+    /* เงาตัวอักษร */
+    text-shadow: 2px 2px 4px rgb(130, 18, 158);
+    text-align: center;
+}
+
+.maejo_eng_text {
+    /* ขนาด font */
+    font-size: 40px;
+    /* ขนาดความหนา */
+    font-weight: bold;
+    color: rgb(10, 182, 33);
+    /* เงาตัวอักษร */
+    text-shadow: 2px 2px 4px rgb(48, 3, 3);
+    text-align: center;
+}
+
+.tabmini {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);

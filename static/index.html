@@ -10,8 +10,6 @@
     <title>มหาวิทยาลัยแม่โจ้</title>
     <!-- link -->
     <!-- css  -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="/css/mystyle.css">
@@ -22,6 +20,13 @@
     </script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
 </head>
 
 <body style="background-color:rgb(206, 219, 206) ;">
@@ -42,40 +47,70 @@
         </div>
 
     </div>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light col-sm-12 ">
-            <div class="container-lg">
-                <a class="navbar-brand " href="index.html ">HOME</a>
-                <button class="navbar-toggler " type="button " data-bs-toggle="collapse " data-bs-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
-                <span class="navbar-toggler-icon "></span>
-              </button>
-                <div class="collapse navbar-collapse " id="navbarNav ">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item ">
-                            <a class="nav-link active " aria-current="page " href="reseach.html ">เกี่ยวกับมหาวิทยาลัย</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="agency.html ">วิจัยและบริการวิชาการ</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="http://www.education.mju.ac.th/ ">การศึกษา</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="around.html ">ในรั้วมหาวิทยาลัย</a>
-                        </li>
-                    </ul>
-                    <div class="col-sm-3 "></div>
-                    <form class="d-flex ">
 
-                        <input class="form-control me-2 " type="search " placeholder="Search " aria-label="Search ">
-                        <button class="btn btn-outline-success " type="submit ">Search</button>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
 
-                    </form>
+    <!-- หัวเรื่อง -->
+    <div class="row" style="background-color: #E8FFFF">
+        <div class="col-md-1">
 
-                </div>
-            </div>
-        </nav>
+        </div>
+
     </div>
+
+    <!-- tabตัวเลือก  -->
+    <div class="row justify-content-center" style="border-bottom: 2px grey solid;"></div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white; text-align: justify; ">
+        <!-- <a class="navbar-brand" href="index.html"><img src="img/มหาวิทยาลัยแม่โจ้_edit.png" height="10" alt=""></a>  -->
+
+        <div class="col-md-2"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible CT -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Links nav -->
+            <div class="container p-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class=" btn-outline-success nav-item  ">
+                        <a class="nav-link" style=" text-decoration: none; " href="index.html">HOME <span class="sr-only"></span></a>
+                    </li>
+                    <span class="separator"></span>
+                    <li class=" btn-outline-success nav-item">
+                        <a class="nav-link" style="text-decoration: none; " href="about.html" ">เกี่ยวกับมหาวิทยาลัย</a>
+                    </li>
+                    <span class="separator "></span>
+                    <li class=" btn-outline-success nav-item ">
+                        <a class="nav-link " style="text-decoration: none; " href="agency.html " ">หน่วยงาน</a>
+                    </li>
+
+                    <span class="separator "></span>
+                    <li class=" btn-outline-success nav-item ">
+                        <a class="nav-link " style="text-decoration: none; " href="reseach.html">วิจัยและวิชาการบริการ</a>
+                    </li>
+                    <span class="separator "></span>
+                    <li class=" btn-outline-success nav-item ">
+                        <a class="nav-link " style="text-decoration: none; " href="around.html ">ในรั้วมหาวิทยาลัย</a>
+                    </li>
+                    <li>
+                        <form class="form-inline my-2 my-lg-0 ">
+                            <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search ">
+                        </form>
+                    </li>
+                    <li>
+                        <span class="separator "></span>
+                        <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- รูปสไลด์ -->
     <div class="container ">
@@ -189,7 +224,7 @@
 
                             <!-- <div class="col-md-2 "></div> -->
                         </div>
-                        <img src="https://image.makewebeasy.net/makeweb/0/m6aLw3xUL/EducationinThai/666327e5b.jpg" alt=" " width="200 " height="300 ">
+                        <img src="https://image.makewebeasy.net/makeweb/0/m6aLw3xUL/EducationinThai/666327e5b.jpg " alt=" " width="200 " height="300 ">
 
                     </div>
                 </div>
